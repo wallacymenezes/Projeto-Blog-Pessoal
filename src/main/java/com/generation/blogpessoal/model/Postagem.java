@@ -55,7 +55,15 @@ public class Postagem {
         return this.texto;
     }
  
-    public void setTexto(String texto) {
+    public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public void setTexto(String texto) {
         this.texto = texto;
     }
  
